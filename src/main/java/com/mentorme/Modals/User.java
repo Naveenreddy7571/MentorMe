@@ -19,6 +19,7 @@ public class User {
 	private String lastName;
 	private String email;
 	private String gender;
+	private String password;
 	private int year;
 	private String interestedDomain;
 
@@ -80,6 +81,16 @@ public class User {
 
 	public String getInterestedDomain() {
 		return interestedDomain;
+	}
+	
+	
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public void setInterestedDomain(String interestedDomain) {
