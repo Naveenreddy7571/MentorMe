@@ -1,0 +1,712 @@
+body {
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.section1 {
+    background-image: url('images/section1bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header {
+    background-color: #fff;
+    color: #8C52FF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 40px;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+nav ul li a {
+    color: #8C52FF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size:20px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #0313ff; /* Change to your desired hover color */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 55px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+/* Add some padding to the body to prevent content from being hidden behind the fixed header */
+body {
+    padding-top: 60px; /* Adjust based on your header height */
+}
+
+.content {
+    width: 40%;
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+    margin-right: 75px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+.image-container img {
+    margin-right: 30px;
+    margin-bottom: 60px;
+    
+}
+
+.content h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8C52FF;
+}
+
+.content p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: #8C52FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px; /* Make it round */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button within the .content div */
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+
+button:hover {
+    font-weight: bold;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section1 {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .logo h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    .logo img {
+        height: 45px; /* Adjust logo height for smaller screens */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .content,
+    .image-container {
+        width: 100%; /* Make content and image container full width */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .image-container img {
+        margin-right: 0; /* Remove right margin for images */
+        margin-bottom: 30px; /* Adjust bottom margin */
+    }
+
+    .content h3 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+
+    button {
+        margin-left: 0; /* Remove left margin for button */
+        margin-top: 20px; /* Adjust top margin */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin-left: 10px; /* Further decrease margin for extra small screens */
+        margin-right: 10px; /* Further decrease margin for extra small screens */
+    }
+
+    nav ul li a {
+        font-size: 14px; /* Further decrease font size for extra small screens */
+    }
+}
+
+nav ul li {
+    margin-left: 30px; /* Decrease margin for smaller screens */
+    margin-right: 30px; /* Decrease margin for smaller screens */
+}
+
+nav ul li a {
+    font-size: 16px; /* Decrease font size for smaller screens */
+}
+
+
+/* -----------------------------------------section 2--------------------------------------------- */
+
+.section2 h4, p {
+    text-align: center;
+    
+}
+.section2 h4{
+    color: #8C52FF;
+    font-size: 18px;
+}
+.section2 p{
+    font-size: 30px;
+}
+
+.f-heading{
+    color: #8C52FF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features {
+    text-align: left;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 50%;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.features li i {
+    margin-right: 10px;
+    
+}
+
+
+.content-bg {
+   display: flex;
+   justify-content: row;
+   margin-top: 40px;
+   padding: 100px;
+}
+
+.image-card{
+    height: 500px;
+    width: 50%;
+    
+}
+
+.image-card img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.section2-learn-more-btn button{
+    background-color: #8C52FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px; /* Make it round */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button within the .content div */
+    margin-bottom: 40px;
+    /* margin-top: 10px; */
+}
+.section2-learn-more-btn{
+    text-align: center;
+}
+.fa-rocketchat{
+    color: green;
+}
+.fa-video{
+    color: blue;
+}
+.fa-briefcase{
+    color: brown;
+}
+.fa-people-arrows{
+    color: salmon;
+}
+
+.features li:hover {
+    font-weight: bold;
+}
+/* -------------------------Animation------------------------------- */
+
+.image-card {
+    display: none; /* Initially hide the image card */
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 20s ease; /* Add a transition effect */
+}
+
+.show-image-card .image-card {
+    display: block; /* Show the image card when .show-image-card class is added */
+    opacity: 1; /* Set opacity to 1 when the card is visible */
+    transform: translateY(0); /* Reset any previous transforms */
+    transition-delay: 20s; /* Delay the transition slightly */
+    transition-duration: 0.9s; /* Set the duration of the transition */
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.show-image-card .image-card {
+    animation: slideInFromRight 0.9s ease; /* Apply the animation */
+}
+/* ---------------------------------section3------------------ */
+
+.section3{
+    padding-top: 30px;
+    /* height: 100vh; */
+    background-image: url('images/postsbg.png');
+    background-size: cover;
+}
+.section3 h2,p{
+    text-align: center;
+}
+.post-card {
+    height: 300px;
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed for responsiveness */
+    border-radius: 15px;
+    margin: 20px; /* Add margin for spacing between cards */
+    flex: 1; /* Allow cards to grow and shrink as needed */
+}
+
+.post-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly; /* Center the cards horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    
+}
+
+.post-img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover; /* Ensure images fill their containers */
+    border-radius: 15px; /* Apply border-radius to the image */
+}
+.join-now-btn{
+    margin-top: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* ---------------------------------section4=--------------------------------------------- */
+.section4{
+    padding: 30px;
+    
+    /* height: 100vh; */
+}
+.section4 h3{
+    color: #8C52FF;
+    
+}
+.section4 h3{
+    
+    text-align: left;
+}
+.section4-p{
+    text-align: left;
+}
+
+.section4-card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section4-card.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+.section4-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-card {
+    background-color: #f2f2f2; /* Light grey background color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual depth */
+    animation-duration: 1s; /* Animation duration */
+    animation-fill-mode: forwards; /* Keep final state after animation */
+}
+
+.section4-card img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px; /* Rounded corners for the image */
+    
+}
+
+.section4-card-heading {
+    font-weight: bold;
+    color: #8C52FF;
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    to {
+        transform: translateX(0); /* Slide in to the center */
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    to {
+        transform: translateX(0); /* Slide in to the center */
+    }
+}
+
+.left-animate {
+    animation-name: slideFromLeft;
+}
+
+.right-animate {
+    animation-name: slideFromRight;
+}
+/* ---------------------------------------section5------------------------------ */
+
+.section5{
+    /* height: 100vh; */
+    padding: 30px;
+    background-image: url('images/section5bg.png');
+    background-size: cover;
+}
+.section5 h3{
+    color: #8C52FF;
+}
+.section5-para{
+    text-align: left;
+}
+.section5 h4{
+    font-weight: 500;
+}
+
+
+
+
+.section5 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section5 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section5-para {
+    margin-bottom: 30px;
+}
+
+.section5-cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section5-card {
+    flex-basis: calc(25% - 10px); /* Equal width for all four cards */
+}
+
+.section5-inner-card {
+    background-color: #f5f5f5; /* Muted gray background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: transform 0.0s ease;
+}
+
+.section5-inner-card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+
+.section5-inner-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.section5-inner-card h5{
+    font-size: 16px;
+}
+.fa-face-smile{
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+.fa-graduation-cap{
+    color: black;
+}
+.fa-pen-to-square{
+    color: cadetblue;
+}
+.fa-share-from-square{
+    color: skyblue;
+}
+
+.section5-inner-card:nth-child(odd) {
+    background-color: #e0e0e0; /* Light gray background for even-indexed cards */
+    color: #333; /* Dark text color */
+}
+.section5-inner-card:nth-child(even) {
+    background-color: #e0e0e0; /* Light gray background for even-indexed cards */
+    color: #333; /* Dark text color */
+}
+.explorenow-btn{
+    text-align: center;
+}
+/* Style for section5 */
+.section5 {
+    height: auto; /* Change to auto to allow dynamic height */
+    padding: 30px;
+    background-image: url('images/section5bg.png');
+    background-size: cover;
+}
+
+/* Style for section6 */
+.section6 {
+    height: auto; /* Change to auto to allow dynamic height */
+    padding: 30px;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .section5, .section6 {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------section6------------------------------------- */
+.section6{
+    /* height: 100vh; */
+    padding: 30px;
+}
+.section6-para{
+    text-align: left;
+}
+.section6-heading{
+    color: #8C52FF;
+    font-size: 24px;
+}
+.section6-sub-head{
+    font-weight: 500;
+}
+/* Flex container for the cards */
+.section6-cards {
+    display: flex;
+    flex-direction: column; /* Cards in separate rows */
+    margin-top: 50px;
+}
+
+/* @keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+} */
+
+.section6-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 40px); /* Adjust card width minus padding */
+    height: 200px; /* Adjust card height */
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+}
+
+/* Apply zoom effect on hover */
+.section6-card:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+    background-color: #f2f2f2;
+}
+.section6-card:hover h4 {
+    color: #8c52ff; /* Change heading color on hover */
+}
+
+/* Style for card content on left */
+.card-content-left,p {
+    flex: 1; /* Take remaining space */
+    text-align: center; /* Align text to the left */
+    font-size: 14px;
+    
+}
+
+/* Style for card content on right */
+.card-content-right, p{
+    flex: 1; /* Take remaining space */
+    text-align: center; /* Align text to the right */
+    font-size: 14px;
+    
+}
+
+/* Style for card image */
+.card-image {
+    width: 200px; /* Adjust image width */
+    height: auto;
+}
+
+/* Style for card headings */
+.section6-card h4 {
+    margin-top: 0;
+}
+
+/* Style for card image */
+.card-image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto;
+}
+/* section6 and section5 */
+
+
+/* ----------------------------------------------------------section7------------------------------------------------------------------------- */
+.section7{
+    padding: 30px;
+    background-image: url('images/section7.png');
+    background-size: cover;
+    
+    text-align: center;
+}
+.section7 h3{
+    color: #8C52FF;
+    text-align: center;
+    font-size: 24px;
+    animation: slideIn 1s ease forwards; /* Apply the animation */
+}
+.section7 h2{
+    text-align: center;
+    font-weight: 500;
+}
+.section7-card {
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+
+.section7-card img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%); /* Apply grayscale filter by default */
+    transition: filter 0.5s ease; /* Add transition for smooth effect */
+}
+.section7-card:hover img {
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
+}
+
+.section7-card:hover {
+    background-color: #ffffff; /* Change card background color on hover */
+}
+.section7-card:hover img {
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
